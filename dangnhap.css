@@ -1,0 +1,159 @@
+/*v*{
+    margin:0;
+    padding:0;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    overflow: hidden;
+    background-color: #a0a7a7;
+
+
+}
+.to {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: minmax(100px,auto);
+}
+ 
+.form {
+    border: 1px solid #a0a7a7;
+    grid-column: 6/8;
+    grid-row: 3;
+    height: 500px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 13px;
+    box-shadow: 0px 0px 15px 0px #6d7d48;
+    background-color: rgb(255, 255, 255);
+}
+h2 {
+    margin-top: 50px;
+    margin-bottom: 30px 5px;
+}
+i.fab.fa-app-store-ios {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+ 
+label {
+    margin-left: -126px;
+    display: block;
+    font-weight: lighter;
+ 
+}
+input{
+    display: block;
+    border-bottom: 1.5px solid #688727;
+    margin-top: 10px;
+    margin-bottom: 15px ;
+    outline-style: none;
+}
+input[type="text"] {
+    padding: 3px;
+    width: 50%;
+}
+input[type="password"] {
+    padding: 3px;
+    width: 50%;
+}
+ 
+input#submit {
+    padding: 7px;
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    bottom: 5px;
+    cursor: pointer;
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+}
+*{
+    margin:0;
+    padding:0;
+    border:none;
+    font-family: 'Open Sans', sans-serif;
+}
+body {
+    overflow: hidden;
+    background-color: #a0a7a7;
+
+
+}
+.to {
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: minmax(100px,auto);
+}
+ 
+.form {
+    border: 1px solid #a0a7a7;
+    grid-column: 6/8;
+    grid-row: 3;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    border-radius: 13px;
+    box-shadow: 0px 0px 15px 0px #6d7d48;
+    background-color: rgb(255, 255, 255);
+}
+h2 {
+    margin-top: 50px;
+    margin-bottom: 30px 5px;
+}
+i.fab.fa-app-store-ios {
+    display: block;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+ 
+label {
+    margin-left: -126px;
+    display: block;
+    font-weight: lighter;
+ 
+}
+input{
+    display: block;
+    border-bottom: 1.5px solid #688727;
+    margin-top: 10px;
+    margin-bottom: 15px ;
+    outline-style: none;
+}
+input[type="text"] {
+    padding: 3px;
+    width: 50%;
+}
+input[type="password"] {
+    padding: 3px;
+    width: 50%;
+}*/
+.tieude{
+    margin-left: 650px; 
+}
+
+.btn{
+    margin-left: 650px;
+    background-color: rgb(135, 130, 129);
+    color: black;
+}
+
+.form-group{
+    margin-left: 550px;
+}
+
+.form-container-custom{
+    background-color: rgb(142, 94, 94);
+}
+
+.form {
+    background-color: rgb(233, 140, 140);
+    padding: 2rem;
+}

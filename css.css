@@ -1,0 +1,88 @@
+.header{
+    width: 100%;
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    color: brown;
+}
+
+#list-products {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+#list-products .item {
+    background:peachpuff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+
+#list-products .item img {
+    display: block;
+    margin:0px auto;
+    margin-top:20px;
+    margin-left: 30px;
+}
+
+#list-products .item .figure-caption {
+    
+    margin-left: 30px;
+}
+
+#list-products .item .price{
+    margin-left: 30px;
+}
+
+#list-products .item .btn-outline-danger{
+    margin-left: 30px;
+}
+
+.accordion-body{
+    text-align: center;
+}
+
+#article{
+    width: 800px;
+    height: 850px;
+    padding: 15px auto;
+}
+
+.product-item{
+    position: relative;
+    border: 1px solid #d9d9d9;
+    padding: 8px;
+    margin: 5px 0px 10px 0px;
+}
+.news-laste-item {
+    border: 1px solid #d9d9d9;
+    padding: 8px;
+    position: relative;
+}
+.news-laste-item .post-thumb {
+    width: 10%;
+    position: relative;
+    padding-bottom: 5px;
+}
+.post-thumb {
+    display: block;
+}
+.footer{
+    margin-top: 140px;
+    height: 50px;
+    background: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
